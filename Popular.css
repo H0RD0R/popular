@@ -9,10 +9,14 @@
     background: #404040;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 /* Top menu bar */
 .breadcrumb li {
-    display: inline;
+    display: inline-flex;
+    flex-grow: 1;
   }
 
 .breadcrumb li+li::before {
@@ -93,6 +97,7 @@ height: 191px;
 background: #404040;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 2px;
+display: flex;
 
 
 /* Company Name */
