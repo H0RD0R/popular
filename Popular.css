@@ -35,10 +35,11 @@ cursor: pointer;
 }
 
 .title {
-  position: absolute;
+  position: relative;
   box-sizing: border-box;
   width: 1440px;
   height: 100px;
+  display: center;
 }
 
 #header {
@@ -68,4 +69,27 @@ cursor: pointer;
 .box:hover {
   text-decoration: none;
   color: rgb(30, 233, 77);
+}
+
+#companyname {
+  position: absolute;
+  width: 100px;
+  height: 49px;
+  left: 670px;
+  top: 0px;
+  background: #D9D9D9;
+  font-size: large;
+  text-align: center;
+}
+
+#datefounded {
+  position: absolute;
+  width: 50px;
+  height: 21px;
+  left: 695px;
+  top: 50px;
+  background: #D9D9D9;
+  font-size: small;
+  text-align: center;
+  font-style: italic;
 }
