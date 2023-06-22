@@ -1,0 +1,186 @@
+/* Popular */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 250px;
+height: 71px;
+left: 0px;
+top: 0px;
+
+background: #D9D9D9;
+
+
+/* Stucco and Wiring */
+
+position: absolute;
+width: 500px;
+height: 71px;
+left: 750px;
+top: 0px;
+
+background: #D9D9D9;
+
+
+/* Web Developers */
+
+position: absolute;
+width: 500px;
+height: 71px;
+left: 250px;
+bottom: 0px;
+
+background: #D9D9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* AI/Machine Learning */
+
+position: absolute;
+width: 190px;
+height: 71px;
+left: 1250px;
+top: 0px;
+
+background: #D9D9D9;
+
+/* Heaader */
+#header {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 1440px;
+  height: 191px;
+
+  background: #404040;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  display: flex;
+}
+
+/* Company Name */
+
+#header#title {
+  position: absolute;
+  width: 100px;
+  height: 49px;
+  left: 670px;
+  top: 26px;
+  background: #D9D9D9;
+}
+
+/* Founding Date */
+
+#header#datefounded {
+  position: absolute;
+  width: 50px;
+  height: 21px;
+  left: 695px;
+  top: 82px;
+  background: #D9D9D9;
+}
+
+
+/* Web Development */
+
+#header.box1{
+  position: absolute;
+width: 100px;
+height: 60px;
+left: 670px;
+top: 115px;
+
+background: #D9D9D9;
+}
+
+
+/* Stucco and Wiring */
+
+#header.box1{position: absolute;
+width: 100px;
+height: 60px;
+left: 420px;
+top: 115px;}
+
+background: #D9D9D9;
+
+
+/* Machine Learning/AI */
+
+#header.box1{position: absolute;
+width: 100px;
+height: 60px;
+left: 920px;
+top: 115px;
+
+background: #D9D9D9;}
+
+/* Stucco and wiring detail */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #404040;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 2px;
+
+
+/* Stucco and Wiring */
+
+position: absolute;
+width: 100px;
+height: 49px;
+left: 670px;
+top: 15px;
+
+background: #D9D9D9;
+
+
+/* Description */
+
+position: absolute;
+width: 801px;
+height: 145px;
+left: 319px;
+top: 73px;
+
+background: #D9D9D9;
+
+
+/* Link to stucco/wiring webpage */
+
+position: absolute;
+width: 100px;
+height: 34px;
+left: 670px;
+top: 175px;
+
+background: #040202;
+
+/* Footer */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1440px;
+height: 72px;
+
+background: #404040;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 2px;
+
+
+/* Contact Info */
+
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+background: #D9D9D9;
