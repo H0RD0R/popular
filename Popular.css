@@ -1,40 +1,35 @@
-
 .topbar {
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    position: sticky;
-    width: 1440px;
-    height: 71px;
+  position: sticky;
+  width: 1440px;
+  height: 71px;
 
-    background: #404040;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 2px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  background: #404040;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
 }
 /* Top menu bar */
 .breadcrumb li {
-    display: inline-flex;
-    flex-grow: 1;
-  }
+  display: inline;
+  float: left;
+}
 
 .breadcrumb li+li::before {
-    color: gray;
-    content: "/"; 
-  }
+  color: orange;
+  content: " / "; 
+}
 
 .breadcrumb a {
-    background-color: inherit;
-    display: inline;
-    color: aliceblue;
-    text-decoration: underline;
-    font-size: large;
+  background-color: inherit;
+  display: inline;
+  color: aliceblue;
+  text-decoration: underline;
+  font-size: large;
 }
 
 a:hover {
-  text-decoration: none;
-  color: red;
-  cursor: pointer;
+text-decoration: none;
+color: red;
+cursor: pointer;
 }
-
