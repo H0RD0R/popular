@@ -99,13 +99,33 @@ cursor: pointer;
   display:flex;
   flex-direction: column;
   width: 1440px;
+  align-items: center;
 }
 
 .titlebox {
   width: 250px;
-  height: 100px;
 }
 
 .description {
   font-size: larger;
+}
+
+button {
+  border: 1px solid;
+  border-color: #466995;
+  background-color: azure;
+  text-align: center;
+  text-decoration: underline;
+}
+
+button:hover {
+  text-decoration: none;
+  background-color: rgb(213, 255, 255);
+  cursor: pointer;
+}
+
+button:active {
+  text-decoration: none;
+  background-color: rgb(180, 255, 255);
+  color: red;
 }
