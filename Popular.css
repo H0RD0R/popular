@@ -33,3 +33,32 @@ text-decoration: none;
 color: red;
 cursor: pointer;
 }
+
+#header {
+  display: inline-flex;
+  box-sizing: border-box;
+
+  position: relative;
+  width: 1440px;
+  height: 191px;
+
+  background: #404040;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: rgb(72, 13, 233);
+  border: 1px solid rgb(245, 8, 8);
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.box:hover {
+  text-decoration: none;
+  color: rgb(30, 233, 77);
+}
