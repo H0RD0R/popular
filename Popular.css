@@ -93,3 +93,15 @@ cursor: pointer;
   text-align: center;
   font-style: italic;
 }
+
+.infosection {
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  width: 1440px;
+}
+
+.titlebox {
+  width: 250px;
+  height: 100px;
+}
