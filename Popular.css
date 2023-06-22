@@ -34,6 +34,13 @@ color: red;
 cursor: pointer;
 }
 
+.title {
+  position: absolute;
+  box-sizing: border-box;
+  width: 1440px;
+  height: 100px;
+}
+
 #header {
   display: inline-flex;
   box-sizing: border-box;
