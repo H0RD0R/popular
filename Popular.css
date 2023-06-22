@@ -133,4 +133,5 @@ button:active {
 
 #backimg1 {
   background-image: url(https://eskipaper.com/images/sunny-meadow-1.jpg);
+  background-size: auto;
 }
